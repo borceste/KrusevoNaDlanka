@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+    <head>
+        <title>Крушево на дланка - Home Page</title>
+
+        <script src="jquery-3.5.1.min.js"></script>
+        <script>
+            
+            $(document).ready(function(){
+                
+                $("button").click( function(){
+                        var typeOfLocation = $(this).text().toLowerCase();
+                        console.log(typeOfLocation);
+                        $.ajax({
+                        url: 'phpscript.php',
+                        type: 'get',
+                        data:{tableName: typeOfLocation},
+                        dataType: 'JSON',
+                        success: function(response){
+                            var len = response.length;
+                            for(var i=0; i<len; i++){
+                                var name = response[i].name;
+
+                                var tr_str = "<tr>" +
+                                    "<td align='center'>" + name + "</td>" +
+                                    "</tr>";
+
+                                $("#userTable tbody").append(tr_str);
+                            }
+
+                        }
+                    });
+                 });
+            });
+        </script>
+    </head>
+
+    <body>
+        <div id="main_menu" >
+            <button >Restaurants</button> <!--onclick='getLocations("restaurants")'-->
+            <button >Apartments</button> <!--onclick='getLocations("apartments")'-->
+            <button >Hotels</button>
+            <button >Cafes</button>
+        </div>
+        <div class="container">
+            <table id="userTable" border="1" >
+               <thead>
+                 <tr>
+                   <th>Име на локација</th>
+                 </tr>
+               </thead>
+               <tbody></tbody>
+            </table>
+         </div>
+    </body>
+</html>
