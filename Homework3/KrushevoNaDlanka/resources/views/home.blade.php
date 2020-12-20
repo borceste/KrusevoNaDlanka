@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="container">
-        
+
         <div role="tabpanel">
             <ul class="nav nav-tabs" role="tablist">
                 @foreach ($category as $item)
