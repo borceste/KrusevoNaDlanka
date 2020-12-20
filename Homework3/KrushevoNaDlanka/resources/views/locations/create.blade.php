@@ -158,6 +158,8 @@
                         </div>
                     </div>
 
+
+
                     <div class="row">
                         <button class="btn btn-primary">Add location</button>
                     </div>

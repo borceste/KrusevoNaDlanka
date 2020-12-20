@@ -19,21 +19,24 @@
                          class="active">
                         <div>
                             @foreach ($item->locations as $element)
-                                <div class="d-flex p-3">
-                                    <div class="pl-1">
-                                        <img src="{{$element -> image_1}}" width="200px">
-                                    </div>
-                                    <div class="p-3">
-                                        <div>
-                                            <h2>
-                                                {{ $element -> name}}
-                                            </h2>
+                                <a href="{{url('locations/'.$element->id)}}">
+                                    <div class="d-flex p-3">
+                                        <div class="pl-1">
+                                            <img src="{{$element -> image_1}}" width="200px">
                                         </div>
-                                        <div>
-                                            {{$element -> description}}
+                                        <div class="p-3">
+                                            <div>
+                                                <h2>
+                                                    {{ $element -> name}}
+                                                </h2>
+                                            </div>
+                                            <div>
+                                                {{$element -> description}}
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
+
 
                             @endforeach
                         </div>

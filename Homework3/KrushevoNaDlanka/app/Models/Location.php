@@ -46,4 +46,7 @@ class Location extends Model
     public function locations() {
         return $this -> belongsTo(Category::class);
     }
+    public function reviews(){
+        return $this -> hasMany(Review::class);
+    }
 }

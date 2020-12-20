@@ -28,4 +28,4 @@ Route::get('/locations/create', 'App\Http\Controllers\LocationsController@create
 Route::get('/locations/{location}','App\Http\Controllers\LocationsController@show');
 Route::post('/locations', 'App\Http\Controllers\LocationsController@store');
 
-
+Route::post('/reviews','App\Http\Controllers\ReviewsController@store');
