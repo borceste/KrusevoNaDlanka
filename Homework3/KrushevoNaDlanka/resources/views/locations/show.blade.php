@@ -1,6 +1,39 @@
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2AGJ2G2LF9_nIM3v18JGs2KW1moJ15L4&callback=initMap"
+    defer
+></script>
+<style type="text/css">
+    /* Set the size of the div element that contains the map */
+    #map {
+        height: 400px;
+        /* The height is 400 pixels */
+        width: 100%;
+        /* The width is the width of the web page */
+    }
+</style>
+<script>
+    function initMap() {
+
+        const locationCoordinates = { lat: {{$location -> x_coordinate}}, lng: {{$location -> y_coordinate}} };
+
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 4,
+            center: locationCoordinates,
+        });
+
+        const marker = new google.maps.Marker({
+            position: locationCoordinates,
+            map: map,
+        });
+    }
+</script>
 @extends('layouts.app')
 
 @section('content')
+
+
+
+
     <div class="container">
         <div id="info" class="row">
             <div class="col-sm">
@@ -22,7 +55,10 @@
             </div>
         </div>
         <hr>
-        <div id="navigate"></div>
+        <div id="navigate">
+            <h3>Navigation</h3>
+            <div id="map"></div>
+        </div>
         <hr>
         <div id="reviews">
             <div class="p-1">
