@@ -1,0 +1,98 @@
+GET http://localhost:8000/api/locations
+Accept: application/json
+
+<> 2021-01-28T101931.200.json
+
+###
+
+GET http://localhost:8000/api/locations/1
+Accept: application/json
+
+<> 2021-01-28T101834.200.json
+
+###
+
+GET http://localhost:8000/api/locations/2
+Accept: application/json
+
+<> 2021-01-28T101353.404.json
+
+###
+
+GET http://localhost:8000/api/locations
+Accept: application/json
+
+<> 2021-01-28T101301.200.json
+
+###
+
+GET http://localhost:8000/api/locations/1
+Accept: application/json
+
+<> 2021-01-28T101243.200.json
+
+###
+
+GET http://localhost:8000/api/locations/1
+Accept: application/json
+
+<> 2021-01-28T093407.200.json
+
+###
+
+GET http://localhost:8000/api/locations
+Accept: application/json
+
+<> 2021-01-28T093401.200.json
+
+###
+
+GET http://localhost:8000/api/locations
+Accept: application/json
+
+<> 2021-01-28T091620.500.json
+
+###
+
+GET http://localhost:8000/api/locations/1
+Accept: application/json
+
+<> 2021-01-28T091603.500.json
+
+###
+
+GET http://localhost:8000/api/locations/1
+Accept: application/json
+
+<> 2021-01-28T090801.200.json
+
+###
+
+GET http://localhost:8000/api/locations/1
+Accept: application/json
+
+<> 2021-01-28T090755.200.json
+
+###
+
+GET http://localhost:8000/api/locations
+Accept: application/json
+
+<> 2021-01-28T090639.200.json
+
+###
+
+GET http://localhost:8000/api/locations/1
+Accept: application/json
+
+<> 2021-01-28T090548.500.json
+
+###
+
+GET http://localhost:8000/api/locations
+Accept: application/json
+
+<> 2021-01-28T090438.200.json
+
+###
+

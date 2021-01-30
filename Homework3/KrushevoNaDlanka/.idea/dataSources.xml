@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="SQLite - database.sqlite" uuid="818e9c9e-6ed3-49a7-b001-f287a2537d7d">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:E:\Finki\7_Semestar\DizajnIArhitekturaNaDizajn\Proekt\KrusevoMap\Homework3\KrushevoNaDlanka\locationsMicroservice\database\database.sqlite</jdbc-url>
+    </data-source>
+  </component>
+</project>

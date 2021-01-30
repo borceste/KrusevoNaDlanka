@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+
+  krusevo_na_dlanka_db:
+    image: nouchka/sqlite3
+
+  krusevo_na_dlanka:
+    build: ./KrushevoNaDlanka
+    hostname: app
+    env_file: ./KrushevoNaDlanka/.env
+    depends_on:
+      - krusevo_na_dlanka_db
+    links:
+      - krusevo_na_dlanka_db
+    ports:
+      - 8001:80
+
+  location_microservice:
+    build: ./locationsMicroservice
+    hostname: location_microservice
+    env_file: ./locationsMicroservice/.env
+    ports:
+      - 8000:80
+    depends_on:
+      - krusevo_na_dlanka_db
+    links:
+      - krusevo_na_dlanka_db
+

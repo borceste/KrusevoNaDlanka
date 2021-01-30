@@ -1,0 +1,319 @@
+{
+    "message": "Undefined variable $errors (View: E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\resources\\views\\locations\\show.blade.php)",
+    "exception": "Facade\\Ignition\\Exceptions\\ViewException",
+    "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\resources\\views/locations/show.blade.php",
+    "line": 103,
+    "trace": [
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\resources\\views/locations/show.blade.php",
+            "line": 103,
+            "function": "handleError",
+            "class": "Illuminate\\Foundation\\Bootstrap\\HandleExceptions",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php",
+            "line": 107,
+            "function": "require"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php",
+            "line": 108,
+            "function": "Illuminate\\Filesystem\\{closure}",
+            "class": "Illuminate\\Filesystem\\Filesystem",
+            "type": "::"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php",
+            "line": 58,
+            "function": "getRequire",
+            "class": "Illuminate\\Filesystem\\Filesystem",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php",
+            "line": 61,
+            "function": "evaluatePath",
+            "class": "Illuminate\\View\\Engines\\PhpEngine",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\facade\\ignition\\src\\Views\\Engines\\CompilerEngine.php",
+            "line": 37,
+            "function": "get",
+            "class": "Illuminate\\View\\Engines\\CompilerEngine",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php",
+            "line": 139,
+            "function": "get",
+            "class": "Facade\\Ignition\\Views\\Engines\\CompilerEngine",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php",
+            "line": 122,
+            "function": "getContents",
+            "class": "Illuminate\\View\\View",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php",
+            "line": 91,
+            "function": "renderContents",
+            "class": "Illuminate\\View\\View",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php",
+            "line": 62,
+            "function": "render",
+            "class": "Illuminate\\View\\View",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php",
+            "line": 34,
+            "function": "setContent",
+            "class": "Illuminate\\Http\\Response",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+            "line": 780,
+            "function": "__construct",
+            "class": "Illuminate\\Http\\Response",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+            "line": 752,
+            "function": "toResponse",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "::"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+            "line": 692,
+            "function": "prepareResponse",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Routing\\{closure}",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php",
+            "line": 41,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\SubstituteBindings",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php",
+            "line": 127,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php",
+            "line": 103,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php",
+            "line": 55,
+            "function": "handleRequestUsingNamedLimiter",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+            "line": 694,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+            "line": 669,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+            "line": 635,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+            "line": 624,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
+            "line": 166,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+            "line": 128,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php",
+            "line": 87,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fruitcake\\Cors\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\fideloper\\proxy\\src\\TrustProxies.php",
+            "line": 57,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+            "line": 167,
+            "function": "handle",
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+            "line": 103,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
+            "line": 141,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
+            "line": 110,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\public\\index.php",
+            "line": 52,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "E:\\Finki\\7_Semestar\\DizajnIArhitekturaNaDizajn\\Proekt\\KrusevoMap\\Homework3\\KrushevoNaDlanka\\server.php",
+            "line": 21,
+            "function": "require_once"
+        }
+    ]
+}
