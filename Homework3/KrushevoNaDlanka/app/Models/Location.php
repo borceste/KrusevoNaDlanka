@@ -43,9 +43,20 @@ class Location extends Model
 
     protected $guarded = [];
 
+    /**
+     * Method for database relations.
+     * Category 1 : N Locations
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
     public function locations() {
         return $this -> belongsTo(Category::class);
     }
+
+    /**
+     * Method for database relations.
+     * Location 1 : N Reviews
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
     public function reviews(){
         return $this -> hasMany(Review::class);
     }

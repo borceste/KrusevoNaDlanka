@@ -33,6 +33,11 @@ class Review extends Model
 
     protected $guarded = [];
 
+    /**
+     * Method for database relations.
+     * Location 1 : N Reviews
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
     public function reviews() {
         return $this -> belongsTo(Location::class);
     }

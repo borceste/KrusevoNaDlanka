@@ -42,6 +42,7 @@ class User extends Authenticatable
 
     /**
      * Check if user is administrator or not.
+     * Later used to give permission for adding new locations.
      * @return bool
      */
     public function isAdmin()    {

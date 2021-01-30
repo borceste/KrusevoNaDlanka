@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1dcb5b5-52c4-4823-870a-50412ea33d85" name="Default Changelist" comment="Added API for the Location Microservice">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a1dcb5b5-52c4-4823-870a-50412ea33d85" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,20 +33,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="composer.json" />
-        <option value="HTTP Request" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../.." value="MicroserviceAPI" />
+        <entry key="$PROJECT_DIR$/../.." value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+  <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
       <path value="$PROJECT_DIR$/vendor/sebastian/type" />
@@ -176,115 +172,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ChangesTree.GroupingKeys" value="directory" />
-    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../locationsMicroservice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RestClientSettings">
-    <option name="REQUEST_HISTORY">
-      <list>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:8000/api/locations" />
-          <option name="urlPath" value="" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:8000/api/locations/1" />
-          <option name="urlPath" value="" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:8000/api/locations/2" />
-          <option name="urlPath" value="" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Docker.../docker-compose.yaml: Compose Deployment">
-    <configuration name="http#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/app/http.http" runType="Run single request">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
-    <configuration name="../docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="../docker-compose.yaml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="../docker-compose.yaml.krusevo_na_dlanka: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="krusevo_na_dlanka" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="../docker-compose.yaml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="../docker-compose.yaml.locationMicroservice: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="locationMicroservice" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="../docker-compose.yaml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Docker.../docker-compose.yaml: Compose Deployment" />
-        <item itemvalue="Docker.../docker-compose.yaml.locationMicroservice: Compose Deployment" />
-        <item itemvalue="Docker.../docker-compose.yaml.krusevo_na_dlanka: Compose Deployment" />
-        <item itemvalue="HTTP Request.http#1" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -296,40 +194,8 @@
       <updated>1608388816681</updated>
       <workItem from="1608388817910" duration="20429000" />
       <workItem from="1608462770855" duration="10291000" />
-      <workItem from="1608484824475" duration="12288000" />
-      <workItem from="1608501598351" duration="2177000" />
-      <workItem from="1611927077381" duration="9929000" />
-      <workItem from="1611937328498" duration="11109000" />
+      <workItem from="1608484824475" duration="16036000" />
     </task>
-    <task id="LOCAL-00001" summary="Added Google Maps Navigation for every location.">
-      <created>1608504235557</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1608504235557</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Added API for the Location Microservice">
-      <created>1611869235450</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1611869235450</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Added API for the Location Microservice">
-      <created>1612007586216</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1612007586216</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Added API for the Location Microservice">
-      <created>1612007685462</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1612007685462</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,88 +213,31 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Google Maps Navigation for every location." />
-    <MESSAGE value="Added API for the Location Microservice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added API for the Location Microservice" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="349" y="67" key="#CLI_Interpreters" timestamp="1611932094547">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="349" y="67" key="#CLI_Interpreters/0.0.1536.824@0.0.1536.824" timestamp="1611932094547" />
-    <state x="475" y="55" key="#PHP" timestamp="1611917705474">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="475" y="55" key="#PHP/0.0.1536.824@0.0.1536.824" timestamp="1611917705474" />
-    <state x="223" y="67" width="1089" height="727" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611932094927">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="223" y="67" width="1089" height="727" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1611932094927" />
     <state x="402" y="93" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608407461050">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="402" y="93" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1608407461050" />
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1611865940158">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1608492008075">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1611865940158" />
-    <state x="548" y="157" key="FileChooserDialogImpl" timestamp="1611935243151">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1608492008075" />
+    <state x="417" y="135" key="NewPhpClassDialog" timestamp="1608414269972">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="157" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611935243151" />
-    <state width="1024" height="210" key="GridCell.Tab.0.bottom" timestamp="1611942196562">
+    <state x="417" y="135" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1608414269972" />
+    <state x="604" y="335" key="NewPhpFileDialog" timestamp="1608500936524">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611942196562" />
-    <state width="1024" height="210" key="GridCell.Tab.0.center" timestamp="1611942196562">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1024" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611942196562" />
-    <state width="1024" height="210" key="GridCell.Tab.0.left" timestamp="1611942196562">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1024" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611942196562" />
-    <state width="1024" height="210" key="GridCell.Tab.0.right" timestamp="1611942196562">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1024" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611942196562" />
-    <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1611923708385">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1611923708385" />
-    <state x="417" y="135" key="NewPhpClassDialog" timestamp="1611924518908">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="417" y="135" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1611924518908" />
-    <state x="604" y="335" key="NewPhpFileDialog" timestamp="1611924923393">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="604" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1611924923393" />
-    <state x="439" y="117" key="VCS.ChangeListViewerDialog" timestamp="1611863826749">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="439" y="117" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1611863826749" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1612008184622">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612008184622" />
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608504451861">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1608504451861" />
-    <state x="495" y="259" key="git4idea.ui.GitUnstashDialog" timestamp="1611863836477">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="495" y="259" key="git4idea.ui.GitUnstashDialog/0.0.1536.824@0.0.1536.824" timestamp="1611863836477" />
+    <state x="604" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1608500936524" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1608413327391">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1608413327391" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1612007647772">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1608502453082">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1612007647772" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1608502453082" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -26,6 +26,12 @@ class Category extends Model
     use HasFactory;
 
     protected $guarded = [];
+
+    /**
+     *  Method for database relations.
+     * Category 1 : N Locations
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
     public function locations() {
         return $this -> hasMany(Location::class);
     }
